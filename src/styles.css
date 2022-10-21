@@ -6,3 +6,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+:root{
+    --primary-color: #3FC060 ;
+    --secundary-color: #162328;
+}
