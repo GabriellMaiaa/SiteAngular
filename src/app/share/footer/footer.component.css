@@ -1,0 +1,35 @@
+.footer {
+    background-color: #000;
+    padding: 20px 10px;
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+    color: #fff;
+    font-size: 14px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 8px;
+    font-size: 16px;
+}
+
+i {
+    color: var(--primary-color);
+    padding: 0px 7px;
+}
+i:hover{
+    color: #fff;
+}
+a:hover {
+    color: var(--primary-color);
+}
