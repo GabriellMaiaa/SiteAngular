@@ -34,11 +34,11 @@
     </div>
 
     <!--Caixa Products-->
-    <h1 style="text-align: center;font-size:40px;font-weight:bold;"class="mt-4 mb-4">Produtos de Exemplo:</h1>
+    <h1 style="text-align: center;font-size:40px;font-weight:bold;"class="mt-4 mb-4">Produtos de <span class="paragrafo-bold">Exemplo:</span></h1>
     <div class="container">
         <div class="row">
-            <div class="col-lg-3" *ngFor="let fd of productData">
-                <div class="productBox">
+            <div class="col-lg-3 mt" *ngFor="let fd of productData; index as i">
+                <div class="productBox" *ngIf="i<=3">
                     <img src="{{fd.prodImg}}"/>
                     <h2>{{fd.name}}</h2>
                     <p>{{fd.category}}</p>
@@ -46,5 +46,6 @@
                 </div>
             </div>
         </div>
+        <a routerLink="home" class="vermaisbtn">Ver Mais<i class="bi bi-arrow-right"></i></a>
     </div>
 

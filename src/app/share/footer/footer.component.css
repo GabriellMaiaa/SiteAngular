@@ -4,6 +4,7 @@
     overflow: hidden;
     position: sticky;
     top: 100%;
+    margin-top: 25px;
 }
 
 h1 {
