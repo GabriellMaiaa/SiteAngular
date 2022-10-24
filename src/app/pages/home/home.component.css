@@ -1,6 +1,6 @@
 .banner {
     background-image: url('../../../assets/img/banner1teste.jpg');
-    height: 450px;
+    height: 420px;
     background-position: center;
     background-size: cover;
 }
@@ -42,6 +42,12 @@
     border-radius: 7px;
     text-align: center;
 }
+
+.stepBox:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
 .stepBox h1 {
     font-size: 30px;
     color: var(--primary-color);
@@ -54,4 +60,23 @@
 }
 .paragrafo {
     text-align: center;
+}
+.paragrafo-bold {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.productBox {
+    padding: 10px 5px ;
+}
+.productBox img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.productBox h2 {
+    font-size: 20px;
+    margin-top: 10px;
 }
