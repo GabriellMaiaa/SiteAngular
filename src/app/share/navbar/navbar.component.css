@@ -14,3 +14,7 @@
  .navbar-brand {
     font-size: 22px;
  }
+ a:hover {
+   color:var(--primary-color);
+ }
+ 
